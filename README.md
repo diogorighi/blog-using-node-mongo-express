@@ -27,6 +27,8 @@ app.set('settings', {
 				url: 'http://localhost:3000',
 });
 `
+
+
 Configure your database address by changing the code below in *app.js*
 
 `mongoose.connect('mongodb://localhost:27017/blog'); // connect to database`
