@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<%- include('../includes/header', {}) %>
+	</head>
+
+	<body id="page-top">
+
+	    <%- include('../includes/nav', {}) %>	      
+
+	    <section class="bg-primary" id="post">
+	        <div class="container">
+	            <div class="row">
+	                <div class="col-lg-8 col-lg-offset-2 text-center">
+	                    <h2 class="section-heading"> <%=post.title%> </h2>
+	                    <hr class="light">
+	                    <p class="text-faded"> <%=post.shortDescription%> </p>
+
+	                    <p class="text-faded"> <%=post.description%> </p>
+
+	                </div>
+	            </div>
+	        </div>
+	    </section>
+
+		<%- include('../includes/javascript', {}) %>
+
+	</body>
+
+</html>
